@@ -1,4 +1,4 @@
-# DeepMiner-TESS – A Deep Miner for Multi-Cadence Data from the TESS Mission
+# DeepMiner-TESS: A Deep Miner for Multi-Cadence Data from the TESS Mission
 
 **DeepMiner-TESS** is a Python tool designed to deeply mine multi-cadence light curve data from the TESS mission using the `lightkurve` package.  
 It provides an interactive, terminal-based interface for selecting TIC targets and configuring download options, including optional sector filtering.
