@@ -75,10 +75,8 @@ python DeepMiner-TESS.py
 
 ## 🙌 Citation
 
-```text
 If this tool contributed to your research or made your work easier, please consider citing this repository in addition to the standard packages used in your code (e.g., lightkurve, numpy, etc.). 
 A simple mention in your methods or acknowledgments section helps support and improve this project.
-
 
 ---
 
