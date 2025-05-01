@@ -27,12 +27,8 @@ The script expects a `.txt` file in the same directory, with the following forma
 ### 📄 Example:
 ```txt
 QLP;200
-QLP;600
-QLP;1800
-SPOC;20
 SPOC;120
 TESS-SPOC;600
-TESS-SPOC;1800
 ===
 21835438
 307075270
@@ -52,7 +48,7 @@ cd deepminer-tess
 2. Run the script:
 
 ```bash
-python downloader.py
+python DeepMiner-TESS.py
 ```
 
 3. Follow the interactive terminal instructions:
@@ -79,13 +75,16 @@ python downloader.py
 
 ## 🙌 Citation
 
-If this tool was helpful or made your research easier, please consider citing this repository or mentioning it in your acknowledgments.
+```text
+If this tool contributed to your research or made your work easier, please consider citing this repository in addition to the standard packages used in your code (e.g., lightkurve, numpy, etc.). 
+A simple mention in your methods or acknowledgments section helps support and improve this project.
+
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by [Your Name] — built for automating light curve collection in astrophysical research.  
+Developed by De Amorim, Rillck G S B — built for automating light curve collection in astrophysical research.  
 Contributions, suggestions, and issues are welcome!
 
 ---
