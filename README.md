@@ -38,20 +38,13 @@ TESS-SPOC;600
 
 ## 🚀 How to Use
 
-1. Clone this repository or download the script:
-
-```bash
-git clone https://github.com/your-username/deepminer-tess.git
-cd deepminer-tess
-```
-
-2. Run the script:
+1. Run the script:
 
 ```bash
 python DeepMiner-TESS.py
 ```
 
-3. Follow the interactive terminal instructions:
+2. Follow the interactive terminal instructions:
 
 ### 🧭 Step-by-Step:
 - Select the `.txt` file containing TICs and configuration.
