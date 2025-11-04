@@ -5,7 +5,7 @@ It provides an interactive, terminal-based interface for selecting TIC targets a
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Make sure you have Python 3.7 or higher installed.  
 Required packages are automatically checked and installed by the script, but you can also install them manually with:
@@ -16,7 +16,7 @@ pip install lightkurve numpy pandas inquirer
 
 ---
 
-## 📁 Input File Structure
+## Input File Structure
 
 The script expects a `.txt` file in the same directory, with the following format:
 
@@ -24,7 +24,7 @@ The script expects a `.txt` file in the same directory, with the following forma
 2. A line containing only `===` to separate configuration from TIC IDs
 3. A list of TIC IDs (one per line)
 
-### 📄 Example:
+### Example:
 ```txt
 QLP;200
 SPOC;120
@@ -36,7 +36,7 @@ TESS-SPOC;600
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Run the script:
 
@@ -46,7 +46,7 @@ python DeepMiner-TESS.py
 
 2. Follow the interactive terminal instructions:
 
-### 🧭 Step-by-Step:
+### Step-by-Step:
 - Select the `.txt` file containing TICs and configuration.
 - Specify the folder where files should be saved (press Enter to use the default: `dat`).
 - When prompted:  
@@ -58,7 +58,7 @@ python DeepMiner-TESS.py
 
 ---
 
-## 📌 Additional Notes
+## Additional Notes
 
 - The Lightkurve cache is automatically cleared every 100 TICs.
 - Already downloaded files are skipped if a matching file name exists.
@@ -66,20 +66,20 @@ python DeepMiner-TESS.py
 
 ---
 
-## 🙌 Citation
+## Citation
 
-If this tool contributed to your research or made your work easier, please consider citing this repository in addition to the standard packages used in your code (e.g., lightkurve, numpy, etc.). 
+If this tool contributed to your research or made your work easier, please consider citing this repository in addition to the standard packages used in your code (e.g., lightkurve, numpy, and others.). 
 A simple mention in your methods or acknowledgments section helps support and improve this project.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by De Amorim, Rillck G S B — built for automating light curve collection in astrophysical research.  
 Contributions, suggestions, and issues are welcome!
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
